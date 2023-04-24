@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Homepage with reviews",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Homepage with reviews_JSObject1",
+  "deleted": false,
+  "gitSyncId": "6445fd579109b3348c4c795e_64462b1fe036556cf17d3177"
+}

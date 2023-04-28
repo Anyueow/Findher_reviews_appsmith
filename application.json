@@ -13,7 +13,11 @@
       "isDefault": false
     },
     {
-      "id": "Homepage with reviews",
+      "id": "Adding a new Company to Db",
+      "isDefault": false
+    },
+    {
+      "id": "Writing Reviews",
       "isDefault": false
     }
   ],

@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "GetUserINfo",
+    "name": "Gettting_Usernames",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/u/users/username/{{GetUserID.data.user_id}}"
+        "url": "web:4000/u/users/username/{{GetUserID.data}}"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Homepage with reviews",
+    "pageId": "Adding a new Company to Db",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -46,14 +46,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "GetUserID.data.user_id"
+      "GetUserID.data"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Homepage with reviews_GetUserINfo",
+  "id": "Adding a new Company to Db_Gettting_Usernames",
   "deleted": false,
-  "gitSyncId": "6445fd579109b3348c4c795e_64463261e036556cf17d3180"
+  "gitSyncId": "644ad80c1693705db1471c7a_644ad9b51693705db1471c91"
 }

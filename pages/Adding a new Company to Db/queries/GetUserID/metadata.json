@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Homepage with reviews",
+    "pageId": "Adding a new Company to Db",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -58,7 +58,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Homepage with reviews_GetUserID",
+  "id": "Adding a new Company to Db_GetUserID",
   "deleted": false,
   "gitSyncId": "6445fd579109b3348c4c795e_64462d57e036556cf17d317a"
 }

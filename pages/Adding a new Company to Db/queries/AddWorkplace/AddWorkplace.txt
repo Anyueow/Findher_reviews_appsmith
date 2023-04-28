@@ -1,0 +1,7 @@
+{
+  "company_name": {{Company_Name.inputText}},
+  "industry": {{Industry.inputText}},
+  "location":{{Location.inputText}},
+  "website": {{Website.inputText}},
+  "number_of_employees": {{Employee_Count.inputText}}
+}

@@ -13,8 +13,8 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Homepage with reviews",
-    "collectionId": "Homepage with reviews_JSObject1",
+    "pageId": "Adding a new Company to Db",
+    "collectionId": "Adding a new Company to Db_JSObject1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
     "policies": [],
     "userPermissions": []
   },
-  "id": "Homepage with reviews_JSObject1.myFun1",
+  "id": "Adding a new Company to Db_JSObject1.myFun1",
   "deleted": false,
   "gitSyncId": "6445fd579109b3348c4c795e_64462b1fe036556cf17d3174"
 }

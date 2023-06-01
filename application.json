@@ -1,6 +1,18 @@
 {
   "pages": [
     {
+      "id": "Adding a Company",
+      "isDefault": false
+    },
+    {
+      "id": "3 Feeedback Form",
+      "isDefault": false
+    },
+    {
+      "id": "Company Display Page",
+      "isDefault": false
+    },
+    {
       "id": "Landing page",
       "isDefault": true
     },
@@ -13,19 +25,22 @@
       "isDefault": false
     },
     {
-      "id": "Adding a new Company to Db",
+      "id": "Writing Reviews",
       "isDefault": false
     },
     {
-      "id": "Writing Reviews",
+      "id": "Workplaces",
       "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
-  "color": "#F3F1C7",
-  "icon": "system",
+  "color": "#C7F3E3",
+  "icon": "moon",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,

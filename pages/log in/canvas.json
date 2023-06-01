@@ -214,7 +214,7 @@
               "resetFormOnClick": false,
               "boxShadow": "none",
               "widgetName": "Sign_in_submit",
-              "onClick": "{{GetUserName.run(() => navigateTo('Homepage with reviews',{\"params\": Username_Login.inputText}, 'SAME_WINDOW'), () => {})}}",
+              "onClick": "{{GetUserName.run(() => navigateTo('Adding a new Company to Db',{\"params\": Username_Login.inputText}, 'SAME_WINDOW'), () => showAlert('cry'))}}",
               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
               "displayName": "Button",
               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",

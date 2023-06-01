@@ -1,0 +1,8 @@
+UPDATE workplaces SET
+		company_name = '{{update_form.fieldState.company_name.isVisible ? update_form.formData.company_name : update_form.sourceData.company_name}}',
+		industry = '{{update_form.fieldState.industry.isVisible ? update_form.formData.industry : update_form.sourceData.industry}}',
+    location = '{{update_form.fieldState.location.isVisible ? update_form.formData.location : update_form.sourceData.location}}',
+		website = '{{update_form.fieldState.website.isVisible ? update_form.formData.website : update_form.sourceData.website}}',
+		benefits = '{{update_form.fieldState.benefits.isVisible ? update_form.formData.benefits : update_form.sourceData.benefits}}',
+		amenities = '{{update_form.fieldState.amenities.isVisible ? update_form.formData.amenities : update_form.sourceData.amenities}}'
+WHERE workplace_id = {{data_table.selectedRow.workplace_id}};

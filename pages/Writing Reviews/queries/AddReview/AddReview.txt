@@ -1,8 +1,0 @@
-{
-
- 	"workplace_id": {{Select_Company.selectedOptionValue}}, 
-	"rating": {{Rating.value}},
-	"content" : {{Reviewcomp.inputText}}
-	
-
-}

@@ -1,0 +1,1 @@
+SELECT * FROM job_applications where id = {{appsmith.URL.queryParams.appId}} LIMIT 1;

@@ -1,0 +1,14 @@
+INSERT INTO workplaces (
+	company_name,
+	industry,
+	location,
+	website,
+	benefits,
+	amenities)
+VALUES (
+	'{{insert_form.formData.company_name}}',
+	'{{insert_form.formData.industry}}',
+	'{{insert_form.formData.location}}',
+	'{{insert_form.formData.website}}',
+	'{{insert_form.formData.benefits}}',
+	'{{insert_form.formData.amenities}}');

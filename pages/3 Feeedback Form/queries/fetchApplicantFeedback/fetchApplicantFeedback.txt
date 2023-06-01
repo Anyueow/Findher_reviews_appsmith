@@ -1,0 +1,1 @@
+SELECT * FROM candidate_feedback where application_id = '{{appsmith.URL.queryParams.appId}}' AND interviewer = '{{appsmith.user.email}}' LIMIT 1;

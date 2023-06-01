@@ -1,0 +1,10 @@
+INSERT INTO candidate_feedback
+  (id,interviewer, application_id, feedback, rating)
+VALUES
+  (
+		{{getRowCount.data[0].count+1}},
+    '{{ appsmith.user.email }}',
+    {{ appsmith.URL.queryParams.appId}},
+    '{{ feedbackInput.text }}',
+		{{Rating1.value}}
+  );

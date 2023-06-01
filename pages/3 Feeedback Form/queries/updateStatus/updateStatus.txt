@@ -1,3 +1,0 @@
-UPDATE job_applications
-  SET application_status = 'Feedback Received'
-  WHERE id = '{{appsmith.URL.queryParams.appId}}'';

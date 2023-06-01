@@ -1,0 +1,7 @@
+{
+	"company_name": "{{name.text}}",
+	"industry": "{{Industry.text}}",
+  "location": "{{location_add.text}}",
+  "website": "{{website.text}}"
+}
+

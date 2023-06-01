@@ -3,9 +3,9 @@ INSERT INTO job_applications
 VALUES
   (
     '{{ name.text }}',
-		'{{ email.text }}',
-		'{{ phoneNo.text }}',
-    '{{ role.selectedOptionValue }}',
+		'{{ website.text }}',
+		'{{ Industry.text }}',
+    '{{ location_add.selectedOptionValue }}',
 		'{{ (new Date()).toISOString() }}',
 		'{{ 'Applied' }}',
 		'{{Resume_URL.text}}'

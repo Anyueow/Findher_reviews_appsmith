@@ -313,7 +313,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "email",
+                      "widgetName": "website",
                       "topRow": 17,
                       "bottomRow": 21,
                       "parentRowSpace": 40,
@@ -346,7 +346,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "role",
+                      "widgetName": "location_add",
                       "isFilterable": true,
                       "topRow": 17,
                       "bottomRow": 21,
@@ -406,7 +406,7 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "phoneNo",
+                      "widgetName": "Industry",
                       "topRow": 7,
                       "bottomRow": 11,
                       "parentRowSpace": 40,

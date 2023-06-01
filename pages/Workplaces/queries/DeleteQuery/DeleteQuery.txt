@@ -1,2 +1,0 @@
-DELETE FROM workplaces
-  WHERE workplace_id = {{data_table.triggeredRow.workplace_id}};

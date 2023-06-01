@@ -17,7 +17,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "INSERT INTO job_applications\n  (candidate_name, candidate_email, candidate_phone_no, applied_role, application_datetime, application_status, resume_url)\nVALUES\n  (\n    '{{ name.text }}',\n\t\t'{{ email.text }}',\n\t\t'{{ phoneNo.text }}',\n    '{{ role.selectedOptionValue }}',\n\t\t'{{ (new Date()).toISOString() }}',\n\t\t'{{ 'Applied' }}',\n\t\t'{{Resume_URL.text}}'\n  );\n",
+      "body": "INSERT INTO job_applications\n  (candidate_name, candidate_email, candidate_phone_no, applied_role, application_datetime, application_status, resume_url)\nVALUES\n  (\n    '{{ name.text }}',\n\t\t'{{ website.text }}',\n\t\t'{{ Industry.text }}',\n    '{{ location_add.selectedOptionValue }}',\n\t\t'{{ (new Date()).toISOString() }}',\n\t\t'{{ 'Applied' }}',\n\t\t'{{Resume_URL.text}}'\n  );\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -35,13 +35,13 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "'Applied'",
-      "(new Date()).toISOString()",
-      "Resume_URL.text",
-      "email.text",
-      "name.text",
-      "phoneNo.text",
-      "role.selectedOptionValue"
+      " 'Applied' ",
+      " (new Date()).toISOString() ",
+      " Industry.text ",
+      " location_add.selectedOptionValue ",
+      " name.text ",
+      " website.text ",
+      "Resume_URL.text"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

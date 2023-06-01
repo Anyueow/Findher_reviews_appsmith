@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n  \"username\": \"{{Username_Signin.text}}\",\n  \"email\": \"{{Email_Signin.text}}\",\n  \"password\": \"{{Password_Signin.text}}\"\n}\n",
+      "body": "{\n\t\"firstname\": \"{{FirstName_Sign_in.text}}\",\n\t\"lastname\": \"{{LastName_Sign_in.text}}\",\n  \"username\": \"{{Username_Signin.text}}\",\n  \"email\": \"{{Email_Signin.text}}\",\n  \"password\": \"{{Password_Signin.text}}\"\n}\n",
       "bodyFormData": [],
       "httpMethod": "POST",
       "selfReferencingDataPaths": [],
@@ -57,6 +57,8 @@
     "messages": [],
     "jsonPathKeys": [
       "Email_Signin.text",
+      "FirstName_Sign_in.text",
+      "LastName_Sign_in.text",
       "Password_Signin.text",
       "Username_Signin.text"
     ],

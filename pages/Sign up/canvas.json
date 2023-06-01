@@ -507,7 +507,7 @@
                               "resetFormOnClick": false,
                               "boxShadow": "none",
                               "widgetName": "Sign_in_submit",
-                              "onClick": "{{create_new_user.run(() => showAlert('SLAY','info'), () => showAlert('CRY'))}}",
+                              "onClick": "{{create_new_user.run(() => navigateTo('Writing Reviews', {}, 'SAME_WINDOW'), () => showAlert('CRY'))}}",
                               "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
                               "displayName": "Button",
                               "iconSVG": "/static/media/icon.cca026338f1c8eb6df8ba03d084c2fca.svg",

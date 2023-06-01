@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1190,
+          "bottomRow": 1270,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -132,7 +132,7 @@
                     {
                       "boxShadow": "none",
                       "widgetName": "Button5Copy",
-                      "onClick": "{{navigateTo('2 Application Upload', {})}}",
+                      "onClick": "{{navigateTo('Company Display Page', {})}}",
                       "buttonColor": "{{appsmith.theme.colors.backgroundColor}}",
                       "displayName": "Button",
                       "iconSVG": "/static/media/icon.cca02633.svg",

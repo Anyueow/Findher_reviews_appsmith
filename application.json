@@ -29,7 +29,7 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#C7F3E3",
-  "icon": "moon",
+  "icon": "bag",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },
@@ -37,6 +37,11 @@
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
+  "embedSetting": {
+    "height": "720px",
+    "width": "1024px",
+    "showNavigationBar": false
+  },
   "collapseInvisibleWidgets": true,
   "isManualUpdate": false,
   "deleted": false

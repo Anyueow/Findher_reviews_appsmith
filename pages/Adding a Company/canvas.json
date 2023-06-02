@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 610,
+          "bottomRow": 490,
           "containerStyle": "none",
           "snapRows": 104,
           "parentRowSpace": 1,
@@ -346,36 +346,6 @@
                     },
                     {
                       "boxShadow": "none",
-                      "widgetName": "location_add",
-                      "isFilterable": true,
-                      "topRow": 17,
-                      "bottomRow": 21,
-                      "parentRowSpace": 40,
-                      "type": "DROP_DOWN_WIDGET",
-                      "defaultOptionValue": "dev",
-                      "parentColumnSpace": 62.25,
-                      "leftColumn": 33,
-                      "dynamicBindingPathList": [
-                        {
-                          "key": "accentColor"
-                        }
-                      ],
-                      "options": "[\n  {\n    \"label\": \"Software Engineer\",\n    \"value\": \"Software Engineer\"\n  },\n  {\n    \"label\": \"Product Designer\",\n    \"value\": \"Product Designer\"\n  },\n  {\n    \"label\": \"Marketing Lead\",\n    \"value\": \"Marketing Lead\"\n  }\n]",
-                      "isDisabled": false,
-                      "labelTextSize": "0.875rem",
-                      "isRequired": true,
-                      "rightColumn": 62,
-                      "widgetId": "ujb32vgllq",
-                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-                      "isVisible": true,
-                      "label": "",
-                      "version": 1,
-                      "parentId": "hnice2rhm7",
-                      "isLoading": false,
-                      "borderRadius": "0px"
-                    },
-                    {
-                      "boxShadow": "none",
                       "widgetName": "Text4",
                       "topRow": 13,
                       "bottomRow": 17,
@@ -524,6 +494,63 @@
                       "disabledWhenInvalid": false,
                       "borderRadius": "0.375rem",
                       "buttonVariant": "PRIMARY"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Select1",
+                      "isFilterable": true,
+                      "displayName": "Select",
+                      "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+                      "labelText": "",
+                      "searchTags": [
+                        "dropdown"
+                      ],
+                      "topRow": 17,
+                      "bottomRow": 24,
+                      "parentRowSpace": 10,
+                      "labelWidth": 5,
+                      "type": "SELECT_WIDGET",
+                      "serverSideFiltering": false,
+                      "hideCard": false,
+                      "defaultOptionValue": "GREEN",
+                      "animateLoading": true,
+                      "parentColumnSpace": 12.01953125,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 33,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        },
+                        {
+                          "key": "options"
+                        }
+                      ],
+                      "labelPosition": "Top",
+                      "options": "{{JSObject1.function.data}}",
+                      "placeholderText": "Select option",
+                      "isDisabled": false,
+                      "key": "j857idpkba",
+                      "labelTextSize": "0.875rem",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "dynamicHeight": "FIXED",
+                      "widgetId": "62wnf79uw9",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "hnice2rhm7",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "maxDynamicHeight": 9000,
+                      "minDynamicHeight": 4
                     }
                   ],
                   "labelTextSize": "0.875rem",
@@ -676,7 +703,31 @@
             }
           ]
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Adding a Company_Get_Location",
+              "name": "Get_Location",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "Adding a Company_JSObject1.function",
+              "name": "JSObject1.function",
+              "collectionId": "Adding a Company_JSObject1",
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "async function () {\n  const mappedData = Get_Location.data;\n  const transformed_data = mappedData.map(item => {\n    return {\n      \"value\": item[\"city\"],\n      \"label\": item[\"state\"]\n    };\n  });\n  return transformed_data;\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Adding a Company",

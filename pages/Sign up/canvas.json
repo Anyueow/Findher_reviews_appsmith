@@ -196,7 +196,7 @@
                             },
                             {
                               "boxShadow": "none",
-                              "widgetName": "Username_Signin",
+                              "widgetName": "pnosignin",
                               "displayName": "Input",
                               "iconSVG": "/static/media/icon.9f505595da61a34f563dba82adeb06ec.svg",
                               "searchTags": [
@@ -240,7 +240,7 @@
                               "showStepArrows": false,
                               "minWidth": 450,
                               "isVisible": true,
-                              "label": "Enter a username",
+                              "label": "What's your phone number? ",
                               "version": 2,
                               "parentId": "w8rskkerpm",
                               "labelAlignment": "left",

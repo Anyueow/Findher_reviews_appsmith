@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Adding a Company",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Adding a Company_JSObject1",
+  "deleted": false,
+  "gitSyncId": "644ad80c1693705db1471c7a_647937e55f59b74929765545"
+}
